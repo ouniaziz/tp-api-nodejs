@@ -1,8 +1,9 @@
 // ============================================
 // IMPORTS
 // ============================================
-// Branche A : Serveur Express principal
-const express = require('express');
+// Serveur Express principal - Application de gestion des étudiants
+const express = require('express');git add server.js
+git commit -m "Résolution du conflit: fusion des commentaires serveur"
 const dotenv = require("dotenv");
 const connectDB = require("./config/database");
 
