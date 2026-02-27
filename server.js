@@ -2,8 +2,7 @@
 // IMPORTS
 // ============================================
 // Serveur Express principal - Application de gestion des étudiants
-const express = require('express');git add server.js
-git commit -m "Résolution du conflit: fusion des commentaires serveur"
+const express = require('express');
 const dotenv = require("dotenv");
 const connectDB = require("./config/database");
 
@@ -61,7 +60,7 @@ app.use((req, res) => {
     success: false,
     message: `Route ${req.originalUrl} non trouvée`,
   });
-});
+}); 
 
 // ============================================
 // DÉMARRAGE DU SERVEUR
