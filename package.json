@@ -2,12 +2,12 @@
   "name": "tp1",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
-  },
+"scripts": {
+  "start": "node server.js",
+  "test": "jest --forceExit",
+  "test:watch": "jest --watch",
+  "test:coverage": "jest --coverage --forceExit"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
